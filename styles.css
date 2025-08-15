@@ -1,0 +1,90 @@
+/* ======== RESET ======== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  background: linear-gradient(135deg, #ADD8E6, #7873f5);
+  color: #fff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  color: #ffda77;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* ======== NAV ======== */
+header {
+  background: rgba(0, 0, 0, 0.4);
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+}
+
+nav a {
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #00ffcc;
+}
+
+/* ======== MAIN CONTENT ======== */
+main {
+  flex: 1;
+  padding: 2rem;
+}
+
+section {
+  margin-bottom: 2rem;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 1.5rem;
+  border-radius: 12px;
+  backdrop-filter: blur(5px);
+}
+
+h1, h2, h3 {
+  margin-bottom: 1rem;
+}
+
+/* ======== BUTTONS ======== */
+.btn {
+  display: inline-block;
+  padding: 0.6rem 1.2rem;
+  margin-top: 1rem;
+  border-radius: 8px;
+  font-weight: bold;
+  background: linear-gradient(135deg, #00ffcc, #ffda77);
+  color: #000;
+  transition: transform 0.3s ease;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+
+/* ======== FOOTER ======== */
+footer {
+  background: rgba(0, 0, 0, 0.4);
+  padding: 1rem;
+  text-align: center;
+}
