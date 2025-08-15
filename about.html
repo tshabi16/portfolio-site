@@ -5,22 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>About - My Portfolio</title>
   <link rel="stylesheet" href="styles.css" />
-  <style>
-    /* Additional styles for the profile image */
-    .profile-img {
-      width: 180px;
-      height: 180px;
-      border-radius: 50%;
-      border: 4px solid #fff;
-      display: block;
-      margin: 1rem auto;
-      object-fit: cover;
-    }
-    .about-text {
-      text-align: center;
-      margin-top: 1rem;
-    }
-  </style>
 </head>
 <body>
   <header>
@@ -39,13 +23,32 @@
   <main>
     <section>
       <h1>Who I Am</h1>
-      <!-- Profile image -->
-      <img class="profile-img" src="https://uploads.onecompiler.io/43tte2r9v/43ttehcgc/IMG-20240620-WA0040.jpg" alt="Tshepang Profile Picture" />
-      
-      <div class="about-text">
-        <p>I'm Tshepang Rethabile Emmanuel Tshabalala, a creative thinker and problem solver passionate about engineering, coding, and innovation.</p>
-        <p>I love blending hardware and software to build smart, practical solutions that make a real-world impact.</p>
+      <img class="profile-img" src="https://i.imgur.com/placeholder.png" alt="Tshepang Profile Picture">
+      <p>I'm Tshepang Rethabile Emmanuel Tshabalala, a creative thinker and problem solver passionate about engineering, coding, and innovation.</p>
+      <p>I love blending hardware and software to build smart, practical solutions that make a real-world impact.</p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+      <h2>My Skills</h2>
+      <div class="skill">
+        <h3>Python</h3>
+        <div class="skill-bar"><div class="skill-fill" style="width: 85%;"></div></div>
       </div>
+      <div class="skill">
+        <h3>JavaScript</h3>
+        <div class="skill-bar"><div class="skill-fill" style="width: 75%;"></div></div>
+      </div>
+      <div class="skill">
+        <h3>Mechatronics</h3>
+        <div class="skill-bar"><div class="skill-fill" style="width: 80%;"></div></div>
+      </div>
+    </section>
+
+    <!-- Resume Button -->
+    <section id="resume">
+      <h2>Download My Resume</h2>
+      <a href="assets/Tshepang_CV.pdf" download class="btn">Download CV</a>
     </section>
   </main>
 
