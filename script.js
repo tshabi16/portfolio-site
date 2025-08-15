@@ -1,8 +1,16 @@
-document.addEventListener("DOMContentLoaded", () => {
-  const current = location.pathname.split("/").pop();
-  document.querySelectorAll("nav a").forEach(link => {
-    if(link.getAttribute("href") === current) {
-      link.style.color = "#00ffcc";
+function openModal(id) {
+  document.getElementById(id).style.display = "block";
+}
+
+function closeModal(id) {
+  document.getElementById(id).style.display = "none";
+}
+
+// Close modal when clicking outside content
+window.onclick = function(event) {
+  document.querySelectorAll('.modal').forEach(modal => {
+    if(event.target == modal) {
+      modal.style.display = "none";
     }
   });
-});
+}
